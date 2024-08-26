@@ -1,0 +1,93 @@
+:root {
+  --color1: #ffffff;
+  --color2: #e5e5e5;
+  --color3: #fca311;
+  --color4: #14213d;
+  --color5: #000000;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+body {
+  background-color: var(--color5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color1);
+}
+
+li {
+  list-style-type: none;
+}
+
+#title {
+  color: var(--color1);
+  margin-top: 20px;
+}
+
+#change-due {
+  margin: 20px 0 5px 0;
+}
+
+#customer {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: var(--color2);
+}
+
+label {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  color: var(--color5);
+}
+
+#cash {
+  background-color: var(--color1);
+  border: none;
+  border-radius: 8px;
+  color: var(--color5);
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#purchase-btn {
+  display: block;
+  margin: auto;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  background-color: var(--color4);
+  color: var(--color1);  
+  width: 60%;
+}
+
+#purchase-btn:hover {
+  background-color: var(--color5);
+  color: var(--color1);
+}
+
+#total {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#cid {
+  margin: 15px;
+}
